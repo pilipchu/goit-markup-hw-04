@@ -473,17 +473,16 @@
         <div class="form-footer">
           <p class="page-form-input">Subscribe</p>
           <form class="form-subscribe">
-            <label class="form-label" for="email-input-footer"> </label>
+            <label class="form-label" for="user-email-subscribe"> </label>
             <input
               class="from-input"
-              id="email-input-footer"
-              name="email"
+              id="user-email-subscribe"
+              name="user-email-subscribe"
               type="email"
               placeholder="E-mail"
             />
-            <button class="footer-btn" type="submit">
-              Subscribe
-              <svg class="icon-frame" width="24" height="24">
+            <button class="footer-btn-form" type="submit">
+              Subscribe<svg class="icon-frame" width="24" height="24">
                 <use href="./images/icons.svg#icon-frame"></use>
               </svg>
             </button>
@@ -550,14 +549,14 @@
             <textarea
               class="form-textarea"
               id="user-comment"
-              name="Comment"
+              name="user-comment"
               placeholder="Text input"
               required
             ></textarea>
           </div>
           <div class="container-form">
             <input
-              class="checkbox-privacy"
+              class="visually-hidden checkbox-privacy"
               id="user-privacy"
               name="user-privacy"
               type="checkbox"
@@ -570,10 +569,8 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              <span class="span-privacy">
-                I accept the terms and conditions of the
-                <a class="privacy" href="">Privacy Policy</a>
-              </span>
+              I accept the terms and conditions of the
+              <a class="privacy" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="form-btn" type="submit">Send</button>

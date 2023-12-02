@@ -567,13 +567,12 @@ fill: #f4f4fd;
     margin-left: 80px;
 }
 
-.footer-btn{
+.footer-btn-form{
     display: flex;
     background-color: #4D5AE5;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     min-width: 165px;
     height: 40px;
     color: #FFF;
@@ -584,7 +583,6 @@ fill: #f4f4fd;
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
-    margin-left: 24px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -598,6 +596,7 @@ background-color: #404BBF;
 .page-form-input{
     margin-bottom: 16px;
     font-family: Roboto, sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -606,14 +605,11 @@ background-color: #404BBF;
 
 .form-subscribe{
 display: flex;
+gap: 24px;
 }
 
-.form-label{
-    gap: 24px;
-}
 
 .from-input{
-    display: inline-block;
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -635,6 +631,7 @@ display: flex;
 
 .icon-frame{
     fill: #fff;
+    margin-left: 16px;
 }
 
 .backdrop {
@@ -725,7 +722,7 @@ fill: #FFFFFF;
     flex-direction: column;
     margin-bottom: 8px;
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .form-label-hero {
@@ -814,15 +811,6 @@ fill: #FFFFFF;
     letter-spacing: 0.04em;
 }
 
-.checkbox-privacy {
-    position: absolute;
-    visibility: hidden;
-    pointer-events: none;
-
-    z-index: -1;
-    opacity: 0;
-}
-
 .custom-checkbox{
     width: 16px;
     height: 16px;
@@ -848,24 +836,15 @@ fill: #FFFFFF;
 .checkbox-privacy:checked + .checkbox-privacy-label > .custom-checkbox{
   background-color: #404bbf;
   fill: #F4F4FD;
+  border: none;
 }
 .checkbox-privacy:focus + .checkbox-privacy-label > .custom-checkbox{
     border-color: #404bbf; 
 }
-.span-privacy {
-    color: #8E8F99;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    margin-left: 8px;
-}
 
 .privacy {
     color: #4d5ae5;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
