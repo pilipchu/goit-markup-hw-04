@@ -581,6 +581,7 @@ fill: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 8px 24px;
     cursor: pointer;
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -605,11 +606,15 @@ background-color: #404BBF;
 
 .form-subscribe{
 display: flex;
-gap: 24px;
 }
 
+.form-label{
+    display: flex;
+    gap: 24px;
+}
 
 .from-input{
+    display: inline-block;
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -720,9 +725,8 @@ fill: #FFFFFF;
 .form-input-div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 8px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-label-hero {
