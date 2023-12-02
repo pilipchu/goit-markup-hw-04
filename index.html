@@ -471,27 +471,22 @@
           </ul>
         </div>
         <div class="form-footer">
-          <form>
-            <label class="form-label" for="email-input-footer">
+          <p class="page-form-input">Subscribe</p>
+          <form class="form-subscribe">
+            <label class="form-label" for="email-input-footer"> </label>
+            <input
+              class="from-input"
+              id="email-input-footer"
+              name="email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="footer-btn" type="submit">
               Subscribe
-            </label>
-            <div class="container-input-btn">
-              <input
-                class="from-input"
-                id="email-input-footer"
-                name="email"
-                type="email"
-                placeholder="E-mail"
-              />
-              <button class="footer-btn" type="submit">
-                Subscribe
-                <span class="icon-btn-frame">
-                  <svg class="icon-frame" width="24" height="24">
-                    <use href="./images/icons.svg#icon-frame"></use>
-                  </svg>
-                </span>
-              </button>
-            </div>
+              <svg class="icon-frame" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -499,18 +494,18 @@
     <div class="backdrop is-open">
       <div class="form-hero">
         <button class="close-btn" type="button">
-          <svg width="8" height="8">
+          <svg class="icon-btn-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="titel-form">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-input-div">
-            <label class="form-label-hero" for="user-name-input"> Name</label>
+            <label class="form-label-hero" for="user-name"> Name</label>
             <div class="container-svg-input">
               <input
                 class="form-input-label"
-                id="user-name-input"
+                id="user-name"
                 name="user-name"
                 type="text"
                 required
@@ -521,13 +516,11 @@
             </div>
           </div>
           <div class="form-input-div">
-            <label class="form-label-hero" for="phone-number-input">
-              Phone
-            </label>
+            <label class="form-label-hero" for="user-phone"> Phone </label>
             <div class="container-svg-input">
               <input
                 class="form-input-label"
-                id="phone-number-input"
+                id="user-phone"
                 name="phone-number"
                 type="tel"
                 required
@@ -538,11 +531,11 @@
             </div>
           </div>
           <div class="form-input-div">
-            <label class="form-label-hero" for="email-input"> Email </label>
+            <label class="form-label-hero" for="user-email"> Email </label>
             <div class="container-svg-input">
               <input
                 class="form-input-label"
-                id="email-input"
+                id="user-email"
                 name="email"
                 type="email"
                 required
@@ -553,10 +546,10 @@
             </div>
           </div>
           <div class="form-input-div">
-            <label class="form-label-hero" for="Comment-id"> Comment </label>
+            <label class="form-label-hero" for="user-comment"> Comment </label>
             <textarea
               class="form-textarea"
-              id="Comment-id"
+              id="user-comment"
               name="Comment"
               placeholder="Text input"
               required
@@ -565,21 +558,21 @@
           <div class="container-form">
             <input
               class="checkbox-privacy"
-              id="user-privacy-id"
+              id="user-privacy"
               name="user-privacy"
               type="checkbox"
               value="true"
               required
             />
-            <label class="checkbox-privacy-label" for="user-privacy-id">
+            <label class="checkbox-privacy-label" for="user-privacy">
               <span class="custom-checkbox">
-                <svg class="custom-checkbox-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-property"></use>
+                <svg class="custom-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
               <span class="span-privacy">
                 I accept the terms and conditions of the
-                <a class="privacy" href=""> Privacy Policy</a>
+                <a class="privacy" href="">Privacy Policy</a>
               </span>
             </label>
           </div>
