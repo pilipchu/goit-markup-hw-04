@@ -816,6 +816,9 @@ fill: #FFFFFF;
 
 .checkbox-privacy {
     position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+
     z-index: -1;
     opacity: 0;
 }
@@ -824,7 +827,7 @@ fill: #FFFFFF;
     width: 16px;
     height: 16px;
     display: inline-flex;
-    border:1px solid rgba(46, 47, 66, 0.40);
+    border: 1px solid rgba(46, 47, 66, 0.40);
     border-radius: 2px;
     justify-content: center;
     align-items: center;
